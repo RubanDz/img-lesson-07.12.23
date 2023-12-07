@@ -1,0 +1,87 @@
+/* Кейс 1 */
+.picture1 {
+   width: 200px;
+   height: 200px;
+   border: 1px solid red;
+}
+.wrapper1 {
+   width: 200px;
+   height: 200px;
+   border: 1px solid red;
+   background-image: url("./images/300x400.webp");
+   background-position: center;
+   background-size: cover;
+   color: red;
+   font-weight: 900;
+}
+
+
+
+
+/* Кейс 2 */
+.container_2 {
+   border: 1px solid red;
+   width: 200px;
+   height: 200px;
+   display: flex; /*сделал контейнер гибким, добавил flex*/
+}
+
+
+
+/* Кейс 3 */
+.container_3 {
+   border: 1px solid red;
+   width: 200px;
+   height: 200px;
+}
+.picture_3 {
+   width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+}
+
+/* Кейс 4 */
+.container_4 {
+   border: 7px solid red;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+.picture_4 {
+   width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+   border-radius: inherit;
+}
+
+/* Кейс 5 */
+.container_5 {
+   border: 2px solid red;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+.picture_5 {
+   width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+   border-radius: inherit;
+}
+
+.containr {
+   font-size: 0;
+}
+
+
+.container_6 {
+   width: 200px;
+   height: 200px;
+   border: 1px solid red;
+}
+.picture_6 {
+   width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+   object-position: 10px 10px;
+
+}
